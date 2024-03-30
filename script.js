@@ -22,6 +22,9 @@ function makeGrid(num)
             square.style.backgroundColor = "pink";
             square.style.border="0.00000011rem solid white";
             square.style.boxSizing = "border-box";
+            square.addEventListener('mouseover',function(){
+                square.style.backgroundColor= '#E75480';
+            });
 
             
             row.appendChild(square);
